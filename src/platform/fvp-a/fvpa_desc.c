@@ -11,9 +11,9 @@ struct platform platform = {
     .region_num = 1,
     .regions =  (struct mem_region[]) {
         {
-            // DRAM, 0GB-2GB
+            // DRAM, 0GB-4GB
             .base = 0x80000000,
-            .size = 0x80000000
+            .size = 0x100000000
         }
     },
 
